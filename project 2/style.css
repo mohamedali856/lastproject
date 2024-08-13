@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Foldit:wght@100..900&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&family=Rubik+Mono+One&family=Space+Grotesk:wght@300..700&family=Vesper+Libre:wght@400;500;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Vesper+Libre:wght@400;500;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------- Navbar styles-------------*/
+.container{
+    padding-top: 22px;
+    padding-bottom: 12px;
+    background-color:#F8EEE1;
+    display:flex;
+    justify-content:space-around;
+}
+.navbar{
+    display:flex;
+    gap:10px;
+}
+.logo{
+    margin-right: -145px;
+}
+.Home{
+    color:#E65A41;
+}
+.a1{
+    display:flex;
+    gap:10px;
+    margin-right: 64px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.user{
+    height: 35px;
+    Width: 35px;
+    margin-top: -4px;
+}
+.login{
+    margin-right: 100px;
+}
+a{
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-top:22px;
+    text-decoration: none;
+}
+a:hover{
+    color:#E65A41;
+    transition:0.3s;
+}
+.bag{
+    margin-top: -4px;
+    mArgin-RIGHT: -100px;
+    height: 43px;
+}
+/*------------- content styles-------------*/
+.content1{
+    display: flex;
+    width: 100%;
+    height: 106vh;
+    background-color:rgb(251, 176, 76);
+}
+/*------------- section1 styles-------------*/
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+.okdrugs{
+    margin-top: 30px;
+    margin-left: 580px;
+    z-index: 1;
+}
+.imagedrugs{
+    margin-top: -20px;
+    border-radius: 40px;
+    margin-left: 200px;
+}
+.SHOP{
+    font-weight: 600;
+    margin-left: 200px;
+    font-size: 100px;
+    font-family: "Rubik Mono One", monospace;
+    color: #31302F;
+    z-index: 1;
+}
+.p1{
+    margin-top: -15px;
+    margin-left: 200px;
+    color: #31302F;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+}
+.arrow{
+    color: #31302F;
+    margin-left: 550px;
+    margin-top: -60px;
+    width: 200px;
+    height: 80px;
+}
+.p2{
+    margin-top: 120px;
+    margin-left: -50px;
+    color: #31302F;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+}
+.star{
+    margin-left: -57px;
+}
+.yachtclub{
+    margin-left: -50px;
+    margin-top: 20px;
+}
+/*------------- mini bar styles-------------*/
+
+.footer1{
+    background-color: #31302F;
+    font-family: "Work Sans", sans-serif;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+/*------------- SECTION 3 STYLES -------------*/
+.content2{
+    background-color: #F8EEE1;
+    width: 100%;
+    height: 140vh;
+}
+.title{
+    font-family: "Rubik Mono One", monospace;
+    padding: 30px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: 150px;
+    color: #31302F;
+}
+.subtitle{
+    margin-top: 30px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    margin-left: 189px;
+    color: #31302F;
+}
+.p3{
+    margin-top: 25px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    margin-left: 450px;
+    color: #31302F;
+}
+.imagedrugs{
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+/*------------- SECTION 4 STYLES -------------*/
+
+.content3{
+    background: url(CONTENT3.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.section4{
+    text-align: center;
+}
+.drugsbg{
+    margin-top: 166px;
+}
+/*------------- SECTION 5 STYLES -------------*/
+.content4{
+    display: flex;
+    width: 100%;
+    height: 150vh;
+    background-color:#8490C8;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+.star2{
+    margin-top: 150px;
+    margin-left: 544px;
+    width: 75px;
+    height: 80px;
+    z-index: 1;
+}
+.who{
+    color: #31302F;
+    font-weight: 600;
+    font-family: "Rubik Mono One", monospace;
+    margin-left: 586px;
+    font-size: 100px;
+    margin-top: -55px;
+}
+.okd{
+    margin-top: -26px;
+    margin-left: 130px;
+}
+/*------------- SECTION 6 STYLES -------------*/
+.peach{
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.pimage{
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    margin-left: 267px;
+    margin-top: -286px;
+}
+.headline3{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 350;
+    color: white;
+    margin-top: 70px;
+    margin-left: -345px;
+}
+.lastp{
+    font-weight: 350;
+    margin-top: 30px;
+    margin-left: -345px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+}
+.lastp1{
+    font-weight: 350;
+    margin-top: 15px;
+    margin-left: -345px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+}
+.footer2{
+    background-color: #fbaf4b;
+    font-family: "Work Sans", sans-serif;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+/*------------- LAST SECTION 7 STYLES -------------*/
+.lastpage{
+    width: 100%;
+    height: 110vh;
+}
+.lasttitle{
+    margin-top: 70px;
+    margin-left: 395px;
+    color: #31302F;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 600;
+    font-size: 40px;
+}
+.lastsection1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+.lastsection2{
+    margin-top: 30px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.input0{
+    color: #31302F;
+    font-size: 20px;
+    border: none;
+    border-bottom: #31302F 1.5px solid;
+    padding: 10px;
+}
+.input1{
+    font-size: 20px;
+    color: #31302F;
+    border: none;
+    border-bottom: #31302F 1.5px solid;
+    margin-left: 10px;
+    padding: 10px;
+}
+.input3{
+    font-size: 20px;
+    color: #31302F;
+    border: none;
+    border-bottom: #31302F 1.5px solid;
+    padding: 10px;
+}
+.input4{
+    font-size: 20px;
+    border: none;
+    color: #31302F;
+    border-bottom: #31302F 1.5px solid;
+    margin-left: 10px;
+    padding: 10px;
+}
+.comment{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+.commentplace{
+    color: #31302F;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #31302F 1.5px solid;
+    padding: 10px;
+    width: 540px;
+    height: 350px;
+    margin-top: -10px;
+}
+.send{
+    border-radius: 10px;
+    margin-left: 420px;
+    color: #31302F;
+    background: #cdcac7;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+    border: #31302F 1.5px solid;
+    padding: 10px;
+}
+.lastfooter{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: #31302F;
+}
+.logofooter{
+    margin-left: 200px;
+}
+.facebook{
+    margin-top: 4px;
+    margin-left: 90px;
+}
+.twitter{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+.instagram{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+.plastfooter{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 350;
+    font-size: 12px;
+    color: white;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
